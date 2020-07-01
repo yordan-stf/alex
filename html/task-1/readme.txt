@@ -26,4 +26,8 @@ form.png
 
 Ето полезна информация:
 Документацията на Mozilla: https://developer.mozilla.org/en-US/docs/Web/HTML
-Записки по история на XML: https://ccollins.wordpress.com/2008/03/03/a-brief-history-of-xml/
+Записки по история на XML:
+https://ccollins.wordpress.com/2008/03/03/a-brief-history-of-xml/
+https://docstore.mik.ua/orelly/xml/xmlnut/ch01_04.htm
+Записки по история на HTML:
+https://www.w3.org/People/Raggett/book4/ch02.html
