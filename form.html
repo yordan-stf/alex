@@ -1,0 +1,40 @@
+<html>
+    <head>
+    </head>
+
+    <body>
+        Вие се намирате на 5-та стъпка (от общо 7) от процеса на попълване на данни:<meter min="0" max="7" value="5" low="2" high="6" optimum="5">5</meter>
+        <br />
+        Моля, довършете въвеждането:
+        <hr />
+        <form action="get">
+            <label for="input-address">Адрес за доставка</label>
+            <input type="text" name="address" id="input-address" placeholder="Адрес..." />
+            <br />
+            <label for="input-tel">Телефонен номер</label>
+            <input type="tel" name="tel" id="input-tel" placeholder="Телефонен номер..." />
+            <br />
+            <label for="input-receiving-date">На коя дата искате да пристигне доставката</label>
+            <input type="date" name="receiving-date" id="input-receiving-date" />
+            <br />
+            <label for="input_company">Изберете с коя компания да ви доставим продукта:&nbsp;</label>
+            <select name="company" id="input_company">
+                <option value="">--Компании--</option>
+                <option value="Компания 1">Компания 1</option>
+                <option value="Компания 2">Компания 2</option>
+                <option value="Компания 3">Компания 3</option>
+            </select>
+            <br />
+            Искате ли картичка подарък към поръчката:
+            <input type="radio" id="input_present_yes" name="present" value="Да" checked><label for="input_present_yes">Да</label>
+            <input type="radio" id="input_present_no" name="present" value="Не"><label for="input_present_no">Не</label>
+            <br />
+            <label for="input_comment">Добавете коментар към поръчката</label>
+            <textarea name="comment" id="input_comment" maxlength="150" placeholder="Коментар, но най-много 150 символа."></textarea>
+            <br />
+            <button type="button" value="Предишна стъпка">Предишна стъпка</button>
+            <button type="reset" value="Изчисти">Изчисти</button>
+            <button type="submit" value="Следваща стъпка">Следваща стъпка</button>
+        </form>
+    </body>
+</html>
